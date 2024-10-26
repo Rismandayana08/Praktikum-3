@@ -1,9 +1,20 @@
 ## Nama : Aldi Rismandayana
 ## Kelas : TI.24.A1
 
-# Program Mencari Bilangan Terbesar
+# 1. Program Mencari Bilangan Terbesar dari 3 Variabel
+Program sederhana untuk menentukan bilangan terbesar dari tiga angka yang diinputkan pengguna.
+
+## 1.1 Deskripsi Program
+Program ini akan:
+
+- Meminta user memasukkan 3 bilangan berbeda
+- Membandingkan ketiga bilangan tersebut
+- Menentukan bilangan mana yang terbesar
+- Menampilkan hasilnya ke layar
+- 
+# 2. Program Mencari Bilangan Terbesar
 Program sederhana untuk mencari nilai terbesar dari sekumpulan bilangan yang dimasukkan oleh pengguna menggunakan loop while True dan break statement.
-## Deskripsi Program
+## 2.1 Deskripsi Program
 Program ini dibuat menggunakan bahasa Python dengan fitur:
 
 - Menggunakan while True untuk perulangan tak terbatas
