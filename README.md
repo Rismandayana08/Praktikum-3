@@ -29,23 +29,25 @@ Program ini dibuat menggunakan bahasa Python dengan fitur:
  
  ## Kode Programan 1
 ```python
-a = int(input ("masukan angka: "))
-b = int(input ("masukan angka: "))
-c = int(input ("masukan angka: "))
-
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
 
 if a > b:
     if a > c:
+        print("Terbesar adalah A")
         terbesar = a
     else:
+        print("Terbesar adalah c")
         terbesar = c
 else:
     if b > c:
+        print("Terbesar adalah B")
         terbesar = b
     else:
-        terbesar = c 
+        print("Terbesar adalah C")
 
-print (f"Bilangan Terbesar adalah {terbesar}")
+print(f"Bilangan terbesar adalah: {terbesar}")
 ```
 
  ## Kode Programan 2 
@@ -62,14 +64,10 @@ print (f"bilangan terbesar= {max}")
 
 ## Contoh Output 1
 ````mardown
-masukan bilangan :199908
-masukan bilangan :8998
-masukan bilangan :6765
-masukan bilangan :99998
-masukan bilangan :200
-masukan bilangan :1000
-masukan bilangan :0
-bilangan terbesar= 199908
+Masukkan bilangan A: 89
+Masukkan bilangan B: 90
+Masukkan bilangan C: 200
+Terbesar adalah C
 ````
 
 ## Contoh Output 2
@@ -84,6 +82,14 @@ bilangan terbesar= 8999
 
 ## Cara Kerja Program 1 
 Program ini dimulai dengan meminta pengguna untuk memasukkan tiga angka. Setelah angka-angka tersebut dimasukkan, program menggunakan fungsi max() untuk menentukan angka yang paling besar di antara ketiga angka tersebut. Fungsi max()  secara otomatis membandingkan semua angka dan mengembalikan yang terbesar. Setelah menemukan angka terbesar, program menampilkan hasilnya kepada pengguna dengan kalimat yang jelas. Dengan cara ini, kode menjadi lebih ringkas dan mudah dibaca, tanpa perlu membuat banyak kondisi untuk perbandingan.
+melakukan pengecekan dengan urutan :
+- Apakah A > B?
+- Jika ya: cek apakah A > C?
+- Jika ya: A adalah terbesar
+- Jika tidak: C adalah terbesar
+- Jika tidak: cek apakah B > C?
+- Jika ya: B adalah terbesar
+- Jika tidak: C adalah  nilai terbesar 
 
 ## Cara Kerja Program 2
 variable max di isi dengan nilai 0, setelah itu terdapat variable inputan dengan nama bilangan, jika kondisi bilangan tidak sama dengan 0 maka cari bilangan lebih dari max dan variable max di set dengan bilangan tersebut. Jika bilangan lebih kecil dari max maka bilangan input kembali sehingga akan menghasilkan bilangan terbesar dari operasi tersebut.
